@@ -94,5 +94,11 @@ console.log(online)
 console.log(`Online status ${online}`)
 
 // M A T H  O P E R A T O R S //
-// +,-,**,*,/,%
+// +,-,**,*,/,%,++,--
+let student = 24;
+student = student+1;
+console.log(student)
+student++;
 
+
+//PEMDAS order
