@@ -102,3 +102,4 @@ student++;
 
 
 //PEMDAS order
+// typeof thing tells you the type of te thing isssss
