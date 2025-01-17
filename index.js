@@ -76,3 +76,23 @@ document.getElementById("MyButton").addEventListener("click", function(){
 // .textContent would output: This is a paragraph!
 // .innerHTML would output: <p>This is a paragraph!<p>
 // If getting input, use textContent. If you use innerHTML, ppl could type in html code and the site would acccept it and run it! 
+
+
+// V A R I A B L E S //
+
+let x; // Declaring
+const y = 10; //Init to a val b4 use, inizilization
+let z = 5;
+
+x = "yippee  ";
+z = true; // boolean
+
+// don't use name for var name
+
+let online = false;
+console.log(online)
+console.log(`Online status ${online}`)
+
+// M A T H  O P E R A T O R S //
+// +,-,**,*,/,%
+
