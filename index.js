@@ -103,3 +103,11 @@ student++;
 
 //PEMDAS order
 // typeof thing tells you the type of te thing isssss
+
+let myAge = window.prompt("How old are u?5 555")
+console.log(myAge)
+console.log(typeof myAge)
+myAge = Number(myAge) //nuuuummmberrererer converts to
+console.log(typeof myAge)
+// if you convert a strimnbg to boolean its is just checking 9fid string is emptyd
+// boolean ceck if number is 0 r- not                          yipreeee
