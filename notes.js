@@ -291,19 +291,37 @@ function isvalidemail(email) {
 
 // WHile loops
 // repeats code WHILE something is true
-
+/*
 let myUsername = "";
 while (myUsername == ""){
-    console.log('username not found')
-    myUsername = window.prompt('enter your name')
+    console.log('username not found');
+    myUsername = window.prompt('enter your name');
 }
 
 
+// do while
+// Run code first, then check condition
 
+let myName;
 
+do {
+    myName = window.prompt("Enter ur name");
+} while (myName == "" || myName == null); // || or
 
+*/
+let loggedIn = false;
+let myNewUser;
+let myPass;
 
-
+while (!loggedIn) {
+    myNewUser = window.prompt("Enter your username?");
+    myPass = window.prompt("Enter your pass");
+    if (myNewUser == "user" && myPass == "pass") {
+        loggedIn = true;
+    }else{
+        console.log("invalid credintials")
+    }
+}
 
 
 
