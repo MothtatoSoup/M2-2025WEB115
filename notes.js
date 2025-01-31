@@ -191,6 +191,7 @@ console.error(error) > console.log(error)
 
 // M O D U L E   4 //
 
+/*
 // I F //
 let age = 25;
 if (age >= 21){
@@ -285,9 +286,17 @@ function isEven(x) {
 function isvalidemail(email) {
     return email.includes("@") ? true : false;
 }
+*/
 
 
+// WHile loops
+// repeats code WHILE something is true
 
+let myUsername = "";
+while (myUsername == ""){
+    console.log('username not found')
+    myUsername = window.prompt('enter your name')
+}
 
 
 
