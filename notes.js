@@ -319,50 +319,54 @@ while (!loggedIn) {
     if (myNewUser == "user" && myPass == "pass") {
         loggedIn = true;
     }else{
-        console.log("invalid credintials")
+        console.log("invalid credintials");
     }
 }
 
 
+// For loops
+// Run a loop LIMITED AMNT OF TIMES
 
+for (let i = 0; i <= 10; i+=2) { // let i = 0; 1 < x; i ++ (up one each loop)
+    console.log(i);
+}
 
+// continue skips a loop
+// break exits the loop
 
+// M O D U L E    5 
 
+// Lists in Python = 1D Arrays in Java Script
+// 1D array
+let fruits = ["dragonfruit","banana","Durian"]
 
+fruits.push("coconut") // add element to the end
+fruits.pop() // removes the end element
+fruits.unshift("mango") // adds element to the begining
+fruits.shift() // removes the first element
 
+let fruitLen = fruits.length // the length of the 1D array "fruits"
 
+let index = fruit.indexOf("dragonfruit") // gets the index of an element
+// if the element doesn't exists it will return -1
+// You can use this in an if statment to check if smthing is in a list (if .indexOf() == -1 ..)
 
+//Iterate thru loop
+for(let i = 0; i < fruitLen; i++){
+    console.log[1];
+}
 
+//Backwards
+for (let i = fruitLen -1; i >= 0; i--){
+    console.log[i];
+}
 
+//Enhanced for loop
+for(let fruit of fruits){
+    console.log(fruit);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Sort methods
+fruits.sort(); // sorts alphabetacally A-Z
+fruits.sort().reverse(); // sorts reverse Z-A
 
