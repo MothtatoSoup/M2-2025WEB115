@@ -336,6 +336,7 @@ for (let i = 0; i <= 10; i+=2) { // let i = 0; 1 < x; i ++ (up one each loop)
 
 // M O D U L E    5 
 
+
 // Lists in Python = 1D Arrays in Java Script
 // 1D array
 let fruits = ["dragonfruit","banana","Durian"]
@@ -370,3 +371,21 @@ for(let fruit of fruits){
 fruits.sort(); // sorts alphabetacally A-Z
 fruits.sort().reverse(); // sorts reverse Z-A
 
+
+
+// 2D arrays - Stores matrixes. Rows and collums
+// matrix[row][collumn]
+// [X,O,X]
+// [O,X,X]
+// [O,X,O]
+
+const matrix = [[1,2,3],
+                [4,5,6],
+                [7,8,9]];
+for(let row of matrix){
+    const rowString = row.join(' ') // .join adds something between each array element
+    console.log(rowString)
+}
+
+
+// Objects = Dictionarys in Python
