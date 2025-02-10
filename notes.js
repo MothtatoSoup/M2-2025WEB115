@@ -389,3 +389,29 @@ for(let row of matrix){
 
 
 // Objects = Dictionarys in Python
+// NOT the same as "Objects" from the term object-oreentered programing!!
+
+let person = {
+    // Name : Value
+    firstName: "Meep",
+    lastName: "Meeeeeep",
+    age: 1895,
+}
+
+//Dot Notation
+console.log(person.firstName)
+
+//Bracket Notation
+console.log(person["age"])
+// console.log(person[age]) // Does not work NEEDS to be a string; assumes it is a variable
+
+
+// loop thru object
+for(i in person){
+    console.log(person[i]) // Only bracket notation works
+  //  console.log(i) // Doesn't work
+}
+
+for(i in person){
+    console.log(i + ": " + person[i]);
+}
