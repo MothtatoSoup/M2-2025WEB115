@@ -451,3 +451,24 @@ function randNum(min, max) {
     return Math.floor(Math.random() * (max - min) + 1) + min;
 }
 
+// More ARRAYSS
+
+// SPREAD OPERATOR = allows an iterable item to be expanded into superate numbers
+let numbers = [1,2,3,4,5];
+Math.max(...numbers) // uses spread operator
+
+
+// Spread... STrings?!
+let nameName = "MEEEP"
+let lettersS = [...nameName]; // Turns string into arrays
+
+let lettersSAssemble = [...nameName].join("-") // Full string but puts - inbetween the elements
+
+
+// Combine ARRAYSSS
+
+let fruitss = ["apple", "pear"]
+let vegs = ["carrot", "peas"]
+
+let foodss = [...fruitss,...vegs] // combines the arrays
+let foodsss = [...fruitss,...vegs, "eggs", "milk"] // You can also add stuff
