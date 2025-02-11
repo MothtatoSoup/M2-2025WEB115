@@ -415,3 +415,39 @@ for(i in person){
 for(i in person){
     console.log(i + ": " + person[i]);
 }
+
+
+// MATHHHHHHHHHHHHHH
+// MATH OBJECT - a built-in method that priveds  a collection of properties + methods
+
+let x = 1.99;
+let y = 4;
+let z = 8.2;
+
+console.log(Math.PI) // Gives value of pi
+console.log("min: " + Math.min(x,y,z)); // outputs min
+console.log("max: " + Math.max(x,y,z)); // outputs max
+
+console.log(Math.sqrt); // gets squareroot
+Math.round(y); // general round
+Math.floor(y); // rounds down
+Math.ceil(y); // rounds up
+
+Math.trunc(z); // removes decimal prt
+Math.pow(y,x); // y to the power  of x
+Math.sign(y); // returns wether why is neg (-1), null(0), or pos(1)
+
+
+Math.random; // returns random num btwen 0 (inclusive)
+Math.random * 10; // returns random num btwn 0-9
+
+// returns random numbers btwn min and max
+function randNum(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+
+// includes both min and max
+function randNum(min, max) {
+    return Math.floor(Math.random() * (max - min) + 1) + min;
+}
+
