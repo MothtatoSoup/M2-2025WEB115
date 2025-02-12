@@ -472,3 +472,39 @@ let vegs = ["carrot", "peas"]
 
 let foodss = [...fruitss,...vegs] // combines the arrays
 let foodsss = [...fruitss,...vegs, "eggs", "milk"] // You can also add stuff
+
+// M O D U L E   6
+
+// Opperators
+// && = AND
+// || = OR
+// ! = NOT T --> F, F--> T
+// === Strict Equality
+// !== Strict Inequality
+
+let x2 = true
+let y2 = false
+let z2 = true
+
+// AND &&
+
+if(x2 && y2){
+    console.log("yes")
+}else{
+    console.log("no")
+}
+
+// OR ||
+
+if(x2 || y2){
+    console.log("yes")
+}else{
+    console.log("no")
+}
+
+// NOT !
+if(!x){ 
+    console.log("x is not true")
+}else{
+    console.log("x is true")
+}
