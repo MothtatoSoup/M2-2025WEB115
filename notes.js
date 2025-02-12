@@ -334,6 +334,12 @@ for (let i = 0; i <= 10; i+=2) { // let i = 0; 1 < x; i ++ (up one each loop)
 // continue skips a loop
 // break exits the loop
 
+
+
+
+
+
+
 // M O D U L E    5 
 
 
@@ -473,6 +479,10 @@ let vegs = ["carrot", "peas"]
 let foodss = [...fruitss,...vegs] // combines the arrays
 let foodsss = [...fruitss,...vegs, "eggs", "milk"] // You can also add stuff
 
+
+
+
+
 // M O D U L E   6
 
 // Opperators
@@ -503,8 +513,36 @@ if(x2 || y2){
 }
 
 // NOT !
+
 if(!x){ 
     console.log("x is not true")
 }else{
     console.log("x is true")
+}
+
+// Equality + Strict Equality
+/*
+   = assignment operator
+   == compare operator (check if vals are equal)
+   === strict equality operators (compares if values AND data types are equal)
+   != Inequality
+   !== Strict Inequality
+*/
+
+const PIe = 3.14
+console.log(typeof(PIe))
+
+// using ==
+if(PIe == "3.14"){ // Thinks same data, despite one being a number and another a string
+    console.log("Pie") 
+}else{
+    console.log("Cake")
+}
+
+
+//using ===
+if(PIe === "3.14"){ // thinks data is not the same, one is a string another a number
+    console.log("Pie") 
+}else{
+    console.log("Cake")
 }
